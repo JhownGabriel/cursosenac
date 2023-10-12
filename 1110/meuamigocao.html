@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banho e tosa</title>
+</head>
+<body>
+    <h1>Faça o seu agendamento com pelo menos 48 horas de antecedência</h1>
+    <fieldset>
+        <Legend>Identificação do dono do animal</Legend>
+        <label>Nome:</label>
+        <input type="text" size="50" placeholder="Digite o nome completo do dono do animal"><p></p>
+        <label>Endereço:</label>
+        <input type="text" size="50" placeholder="Digite o endereço:"><p></p>
+        <label>CEP:</label>
+        <input type="number" maxlength="8" placeholder="XXXXX-XX"><p></p>
+        <label>Email:</label>
+        <input type="text" size="50" placeholder="Digite o endereço de email"><p></p>
+        <label>Tel/Cel:</label>
+        <input type="number" maxlength="13" placeholder="99 99999-9999">
+    </fieldset>
+    <fieldset>
+        <Legend>Animal</Legend>
+        <label>Nome:</label>
+        <input type="text" placeholder="Digite o nome do animal"><p></p>
+        <label>Porte do cão:</label>
+        <input type="radio" name="cão" value="pequeno">
+            <label for="pequeno">pequeno</label>
+            <input type="radio" name="cão" value="médio">
+            <label for="médio">médio</label>
+            <input type="radio" name="cão" value="grande">
+            <label for="grande">grande</label>
+                <p></p>
+        <label>Tipo de tosa:</label>
+            <select name="Nenhuma" id="Nenhuma">
+                <option value="Nenhum">Nenhuma</option> 
+                <option value="Tosa Padrão">Tosa Padrão</option>
+                <option value="Tosa Higienica">Tosa Higienica</option>
+                <option value="Tosa na Tesoura">Tosa na Tesoura</option>
+                <option value="Tosa da Raça">Tosa da Raça</option>
+                <option value="Tosa Bebe">Tosa Bebe</option>
+            </select><p></p>
+        <label>Observações:</label>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Digite alguma informação sobre o cão"></textarea>
+    </fieldset>
+    <fieldset>
+        <Legend>Horario - (Não atendemos de domingo e segunda-feira)</Legend>
+            <p></p>
+
+        <label>Indique os dias da semana de sua preferência:</label><br>
+        <input type="checkbox">
+        <label>Terça-feira</label>
+        <input type="checkbox">
+        <label>Quarta-feira</label>
+        <input type="checkbox">
+        <label>Quinta-feira</label>
+        <input type="checkbox">
+        <label>Sexta-feira</label>
+        <input type="checkbox">
+        <label>Sabado</label>
+            <p></p>
+        <label>Primeira opção de horário:</label>
+        <input type="date"><p></p>
+        <label>Segunda opção de horário:</label>
+        <input type="date"><p></p>
+    </fieldset>
+    <input type="submit">
+
+    <p>Atendimento: atendimento@meuamigocaopetshop.com • (0XX) 99999-9999 / (0XX) 88888-8888</p>
+</body>
+</html>
